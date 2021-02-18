@@ -203,7 +203,7 @@ h6 {
     position: relative;
     background-color: #58cced;
     background-size: cover;
-    padding: 200px 0 80px 0;
+    padding: 230px 0 80px 0;
     top: 0px;
 }
 
@@ -1348,7 +1348,7 @@ canvas {
     overflow: hidden;
     position: relative;
     float: left;
-    height: 70px;
+    height: 75px;
     padding-top: 10px;
     margin-top: -10px;
 }
@@ -1374,6 +1374,11 @@ canvas {
 .flp4 {
     animation: flp4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
+
+.myMove {
+    animation: myMove 16s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
 
 @keyframes flp2 {
     0% {
@@ -1453,5 +1458,62 @@ canvas {
     }
     100% {
         margin-top: -270px;
+    }
+}
+
+@keyframes myMove {
+    0% {
+        margin-top: -720px;
+    }
+    3% {
+        margin-top: -630px;
+    }
+    13% {
+        margin-top: -630px;
+    }
+    16% {
+        margin-top: -540px;
+    }
+    26% {
+        margin-top: -540px;
+    }
+    29% {
+        margin-top: -450px;
+    }
+    39% {
+        margin-top: -450px;
+    }
+    42% {
+        margin-top: -360px;
+    }
+    52% {
+        margin-top: -360px;
+    }
+    55% {
+        margin-top: -270px;
+    }
+    65% {
+        margin-top: -270px;
+    }
+    68% {
+        margin-top: -180px;
+    }
+    78% {
+        margin-top: -180px;
+    }
+    81% {
+        margin-top: -90px;
+    }
+    91% {
+        margin-top: -90px;
+    }
+    94% {
+        margin-top: 0px;
+    }
+    99.0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 0px;
     }
 }
